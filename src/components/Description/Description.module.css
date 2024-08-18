@@ -1,0 +1,9 @@
+.headName {
+  display: flex;
+  align-items: flex-start;
+}
+
+.headText {
+  display: flex;
+  align-items: flex-start;
+}
