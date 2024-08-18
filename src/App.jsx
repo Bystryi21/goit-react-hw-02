@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem("key", JSON.stringify(values));
   }),
-    { values };
+    [values];
 
   const onLeaveFeedback = (feedbackType) => {
     setValues({
